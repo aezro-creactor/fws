@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta name="vieport" content="width=device-width, initial-scale=1.0">
+<title>My first project in HTML</title>
+
+
+
+
+</head>
+
+<body style="background-color:#801100;">
+<div style="text-align:center;">
+<br>
+<br>
+<br>
+<h1><b>Benimaru Shinmon</b></h1>
+<br>
+
+
+</div>
+
+<div style="text-align:center;">
+<img src="/abcd/benimaru1.jpg" style="display:inline-block; height:250; width:250">
+<img src="/abcd/benimaru2.jpg" style="display:inline-block;height:250; width:250;">
+<img src="/abcd/benimaru3.jpg" style="display:inline-block; height:250; width:250;" onclick="playMusic()"> <audio id="music" src="BENIMARU.mp3"> </audio>
+<script>
+
+function playMusic() {
+var music = document.getElementById("music");
+music.play();
+}
+
+</script>
+
+
+
+</div>
+
+<div style="text-align:center;">
+<br>
+<br>
+<p>
+<h1>Character info</h1>
+</p>
+<br>
+</div>
+
+
+<div style ="display:table;margin:auto;">
+
+<table bgcolor ="white" height="900">
+<tr bgcolor="grey">
+<th width="150"><i>Romaji</i></th>
+<td width="400"><big>Shinmon Benimaru <br>
+Benimaru Shinmon <br></big><small>(First Introduced)</small></td>
+</tr>
+
+<tr bgcolor="grey">
+<th width="150"><i>Alias</i></th>
+<td width="400"><big>Asakusa's King of Destruction<br>Asakusa no Hakai-Ō<br>Moonlight Mask<br>Waka, The destruction King<br>Beni-ki</big></td>
+</tr>
+
+<tr bgcolor="grey">
+<th width="150"><i>Gender</i></th>
+<td width="400"><big>Male</big></td>
+</tr>
+
+<tr bgcolor="grey">
+<th width="150"><i>Status</i></th>
+<td width="400"><big>Alive</big></td>
+</tr>
+
+<tr bgcolor="grey">
+<th width="150"><i>Birth date</i></th>
+<td width="400"><big>February 20th (Picses)</big></td>
+</tr>
+
+<tr bgcolor="grey">
+<th width="150"><i>Age</i></th>
+<td width="400"><big>22</big></td>
+</tr>
+
+<tr bgcolor="grey">
+<th width="150"><i>Height</i></th>
+<td width="400"><big>170cm (5'7) </big></td>
+</tr>
+
+<tr bgcolor="grey">
+<th width="150"><i>Weight</i></th>
+<td width="400"><big>62kg (137 lbs)</big></td>
+</tr>
+
+<tr bgcolor="grey">
+<th width="150"><i>Blood Type</i></th>
+<td width="400"><big>A</big></td>
+</tr>
+
+</table>
+</div>
+
+
+
+<div style="text-align:center;">
+
+<br>
+<h1><b>Appearance</b></h1>
+<br>
+
+<p><h3>Benimaru is a young and well-built man of average height. He is fair-skinned with neck length, wavy, black hairthat partially covers the front of his face. His right pupil is a red circle with a black dot in the middle, and his iris is also black; while his left eye has a red iris and a white cross-shaped pupil,reminiscent of the tic-tac-toe game or the Japanese symbols for affirmation and negation. He normally carries a gloomy facial expression. Benimaru's outfit consists of a white t-shirt with a black vest over it, a grey (dark-blue in the anime) kimono upper-garment that he only wears on his left arm, and the Special Fire Force uniform trousers that he tucks into his black boots. Previously, he wore black, fingerless gloves and a black jumper, which is wrapped around his waist.</h3></p>
+
+</div>
+
+<div style="text-align:center;">
+
+<br>
+<h1><b>Personality</b></h1>
+<br>
+
+<p><h3>Benimaru is short-tempered, would rather work alone or solely with his brigade, and can be somewhat disrespectful to many of his seniors. Despite this, he has a lot of faith in himself and in his brigade. He doesn't concern himself with any part of Tokyo other than Asakusa, not caring about the rules that the emperor has created, and proudly acts on his own agenda along with his brigade. He is an honest man, though sometimes honest to the point where he is rude to others. Although Benimaru destroys buildings and houses in Asakusa when facing an Infernal, he is seen as a hero and benevolent by the citizens. He seems to care about Asakusa and the people who reside in it and is upset by having to put an end to the life of someone he once knew and becoming extremely angered when misinformed. as shown by the cause of death of Kantarō angering him to the point of fighting the entire 8th Brigade.<br> <br>Generally, he is very calm and nonchalant, even while purifying Infernals, but when angered, fights recklessly. He also has a hot-blooded side that takes pride in his skills and yearns for opponents to give him a fight worth his time. Benimaru is an original country idealist who prefers to be called Shinmon Benimaru, and calling others by their family names before their given names.At the beginning of the attack on Asakusa, Benimaru was hesitant and not confident about acting as the leader and taking control of the citizens, and would rather let Konro do the job but after encouragement from his brigade, he finally stepped up to the matter. Despite his nonchalant demeanor, Benimaru is quite passionate about the worth of free will and despises the dogmatic faith of the Holy Sol that preaches blind faith over human endeavor and despises the oppressive nature of gods.</h3></p>
+
+</div>
+
+</body>
+</html>
